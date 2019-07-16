@@ -5,25 +5,39 @@
 
 body {
     font-family: "open sans", sans-serif;
+    background-color: #f9fafc;
 }
 
-ul {
-  list-style: none;  
+nav a {
+  color: #69696a;
+  list-style: none; 
+  text-decoration: none; 
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  font-size: 20px;
+  padding: 7px;
+  font-size: 15px;
 }
 
-nav ul {
-    text-decoration: none;
-}
-
-.button {
+.hire-us {
     background-color: #000;
     color: #FFF;
     border-radius: 15px;
     padding: 10px 24px;
     text-align: center;
     width: 100%;
+}
+
+.scroll {
+    background-color: #000;
+    color: #FFF;
+    border-radius: 15px;
+    padding: 10px 24px;
+    text-align: center;
+    width: 100%; 
+}
+
+p {
+    color: #69696a;
+    border-left: 2px solid;
+    padding: 12px;
 }
