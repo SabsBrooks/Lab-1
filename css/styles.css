@@ -1,0 +1,29 @@
+/*@font-face {
+	font-family: Open Sans;
+    src: url(https://fonts.google.com/specimen/Open+Sans);
+}*/
+
+body {
+    font-family: "open sans", sans-serif;
+}
+
+ul {
+  list-style: none;  
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 20px;
+}
+
+nav ul {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #000;
+    color: #FFF;
+    border-radius: 15px;
+    padding: 10px 24px;
+    text-align: center;
+    width: 100%;
+}
