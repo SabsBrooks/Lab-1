@@ -1,21 +1,23 @@
-/*@font-face {
-	font-family: Open Sans;
-    src: url(https://fonts.google.com/specimen/Open+Sans);
-}*/
-
 body {
-    font-family: "open sans", sans-serif;
+    font-family: "Open Sans", "sans serif";
     background-color: #f9fafc;
+    padding-left: 7px;
+}
+
+header {
+    padding: 7px;
 }
 
 nav a {
+  font-family: "Open Sans", "sans serif";
   color: #69696a;
   list-style: none; 
   text-decoration: none; 
   display: flex;
   flex-direction: column;
   padding: 7px;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .hire-us {
@@ -25,6 +27,8 @@ nav a {
     padding: 10px 24px;
     text-align: center;
     width: 100%;
+    font-family: "Open Sans", "sans serif";
+    font-size: 14px;
 }
 
 .scroll {
@@ -34,10 +38,17 @@ nav a {
     padding: 10px 24px;
     text-align: center;
     width: 100%; 
+    font-family: "Open Sans", "sans serif";
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: 400;
 }
 
 p {
     color: #69696a;
-    border-left: 2px solid;
-    padding: 12px;
+    border-left: solid;
+    padding-left: 12px;
+    font-weight: 300;
 }
