@@ -9,15 +9,15 @@ header {
 }
 
 nav a {
-  font-family: "Open Sans", "sans serif";
-  color: #69696a;
-  list-style: none; 
-  text-decoration: none; 
-  display: flex;
-  flex-direction: column;
-  padding: 7px;
-  font-size: 14px;
-  font-weight: 300;
+    font-family: "Open Sans", "sans serif";
+    color: #69696a;
+    list-style: none; 
+    text-decoration: none; 
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .hire-us {
